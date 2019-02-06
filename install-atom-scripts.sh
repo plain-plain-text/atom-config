@@ -6,7 +6,7 @@
 
 if type apm > /dev/null; then
   echo "Installing Atom packages. This may take a few minutes."
-  for package in busy-signal file-icons platformio-ide-terminal wordcount linter-markdown intentions linter-ui-default linter linter-js-yaml
+  for package in busy-signal file-icons platformio-ide-terminal wordcount linter-markdown intentions linter-ui-default linter linter-js-yaml linter-eslint linter-ruby linter-pylint
   do
     apm install $package
   done
