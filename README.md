@@ -9,7 +9,7 @@ default in Atom.
 
 ### MacOS
 
-1. Save [atom-setup.sh](https://raw.githubusercontent.com/plain-plain-text/atom-config/master/setup-atom.sh) as a file to your Desktop.  
+1. Save [atom-setup.sh](https://raw.githubusercontent.com/plain-plain-text/atom-config/master/setup-atom.sh) as a file to your desktop.  
 1. Open up `Terminal.app` (located in `Applications/Utilities`)
 1. In `Terminal.app`, type in: `sh ~/Desktop/setup-atom.sh` and hit “return.”
 
@@ -19,7 +19,10 @@ Just like the MacOS instructions, more or less. For now.
 
 ### Windows
 
-Instructions to come once a Powershell script is available.
+1. Save [atom-setup.ps1](https://raw.githubusercontent.com/plain-plain-text/atom-config/master/setup-atom.ps1) as a file to your desktop.
+1. Right click on the file and choose “Run from PowerShell” in the drop-down menu.
+1. Several screens will popup and then disappear, suggesting the process has
+   executed.
 
 ## Packages 
 
