@@ -12,7 +12,7 @@ if type apm > /dev/null; then
     apm install $package
   done
 else
-  echo "Could not find apm. Is Atom installed?"
+  echo "Could not find apm. Check that you’ve run the “Install Shell Commands” inside the “Atom” menu from within Atom." 
 fi
 
 # Enable autosave

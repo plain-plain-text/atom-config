@@ -9,7 +9,8 @@ default in Atom.
 
 ### MacOS
 
-1. Save [atom-setup.sh](https://raw.githubusercontent.com/plain-plain-text/atom-config/master/setup-atom.sh) as a file to your desktop.  
+1. Ensure `apm` is installed, by opening Atom, going to the “Atom” menu, and choosing “Install Shell Commands.” Do so (typing in your password when prompted) until you see “The shell commands `atom` and `apm` are installed.”
+1. Save the file [atom-setup.sh](https://raw.githubusercontent.com/plain-plain-text/atom-config/master/setup-atom.sh) as a file to your desktop.  
 1. Open up `Terminal.app` (located in `Applications/Utilities`)
 1. In `Terminal.app`, type in: `sh ~/Desktop/setup-atom.sh` and hit “return.”
 
