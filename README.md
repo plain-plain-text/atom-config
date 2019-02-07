@@ -7,6 +7,8 @@ default in Atom.
 
 ## Installation and Usage
 
+These instructions presume that you have Atom already installed.
+
 ### MacOS
 
 1. Ensure `apm` is installed, by opening Atom, going to the “Atom” menu, and choosing “Install Shell Commands.” Do so (typing in your password when prompted) until you see “The shell commands `atom` and `apm` are installed.”
@@ -20,9 +22,22 @@ Just like the MacOS instructions, more or less. For now.
 
 ### Windows
 
-1. Save [atom-setup.ps1](https://raw.githubusercontent.com/plain-plain-text/atom-config/master/setup-atom.ps1) as a file to your desktop.
-1. Right click on the file and choose “Run from PowerShell” in the drop-down menu.
+1. Save [atom-setup.ps1](https://raw.githubusercontent.com/plain-plain-text/atom-config/master/setup-atom.ps1) as a file to your desktop by right-clicking on the link and choosing “Save Link As...”
+1. Right click on the file and choose “Run with PowerShell” in the drop-down menu.
 1. Several screens will popup and then disappear, suggesting the process has
+   executed.
+
+If you do not see the “Run with PowerShell” command or get an error about a
+“PSSecurityException,”:
+
+1. Open the DOS prompt by typing “cmd” in the search window in the taskbar or
+   Start Menu. Choose the first result.
+1. Type in `powershell -ExecutionPolicy Unrestricted` and hit “Enter.” The
+   prompt (the part ending in `>`) should change and have a `PS` at the start.
+1. Type `~\Desktop\setup-atom.ps1` and hit “Enter.”
+1. A warning about running scripts will appear. Type `r` for “Run Once” and
+   hit “Enter.”
+1. Several windows will popup and disappear, suggesting the process has
    executed.
 
 ## Packages 
