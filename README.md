@@ -44,9 +44,9 @@ If you do not see the “Run with PowerShell” command or get an error about a
 
 ### Usability Packages
 
-* `[file-icons](https://atom.io/packages/file-icons)`: Adds pretty icons
-* `[platformio-ide-terminal](https://atom.io/packages/platformio-ide-terminal)`: Creates interactive shells executing scripts within atom.
-* `[wordcount](https://atom.io/packages/wordcount)`: Adds a wordcount report
+* [`file-icons`](https://atom.io/packages/file-icons): Adds pretty icons
+* [`platformio-ide-terminal`](https://atom.io/packages/platformio-ide-terminal): Creates interactive shells executing scripts within atom.
+* [`wordcount`](https://atom.io/packages/wordcount): Adds a wordcount report
 
 ### Linting Packages
 
@@ -55,19 +55,18 @@ in code or syntax in Atom. You can add additional linter layers above it for
 whatever language or markup you are using. We offer a few base linter
 languages that the Plain Plain Text community is likely to need.
 
-* `[linter](https://atom.io/packages/linter)`: The base package
-* `[busy-signal](https://atom.io/packages/busy-signal)`: A dependency
-* `[intentions](https://atom.io/packages/intentions)`: A dependency
-* `[linter-ui-default](https://atom.io/packages/linter-ui-default)`: A
+* [`linter`](https://atom.io/packages/linter): The base package
+* [`busy-signal`](https://atom.io/packages/busy-signal): A dependency
+* [`intentions`](https://atom.io/packages/intentions): A dependency
+* [`linter-ui-default`](https://atom.io/packages/linter-ui-default): A
 dependency
 
 
-* `[linter-markdown](https://atom.io/packages/linter-markdown)`: [Markdown](https://en.wikipedia.org/wiki/Markdown)
-* `[linter-js-yaml](https://atom.io/packages/linter-js-yaml)`: [YAML](https://en.wikipedia.org/wiki/YAML)
-* `[linter-eslint](https://atom.io/packages/linter-eslint)`: [ESLint](https://eslint.org/) for JavaScript
-* `[linter-ruby](https://atom.io/packages/linter-ruby)`:
-[Ruby](https://en.wikipedia.org/wiki/Ruby_(programming_language))
-* `[linter-pylint](https://atom.io/packages/linter-pylint)`: [Pylint](https://pylint.org/) for Python
+* [`linter-markdown`](https://atom.io/packages/linter-markdown): [Markdown](https://en.wikipedia.org/wiki/Markdown)
+* [`linter-js-yaml`](https://atom.io/packages/linter-js-yaml): [YAML](https://en.wikipedia.org/wiki/YAML)
+* [`linter-eslint`](https://atom.io/packages/linter-eslint): [ESLint](https://eslint.org/) for JavaScript
+* [`linter-ruby`](https://atom.io/packages/linter-ruby): [Ruby](https://en.wikipedia.org/wiki/Ruby_(programming_language))
+* [`linter-pylint`](https://atom.io/packages/linter-pylint): [Pylint](https://pylint.org/) for Python
 
 ## Configuration
 
